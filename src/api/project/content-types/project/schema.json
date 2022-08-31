@@ -64,6 +64,33 @@
     },
     "description": {
       "type": "text"
+    },
+    "years_active": {
+      "type": "string"
+    },
+    "date_started": {
+      "type": "date"
+    },
+    "date_ended": {
+      "type": "date"
+    },
+    "employed": {
+      "type": "boolean"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "lg",
+        "md",
+        "sm"
+      ],
+      "default": "lg",
+      "required": true
+    },
+    "priority": {
+      "required": true,
+      "default": 0,
+      "type": "integer"
     }
   }
 }
