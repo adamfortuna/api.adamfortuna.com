@@ -91,6 +91,35 @@
       "required": true,
       "default": 0,
       "type": "integer"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "state": {
+      "type": "enumeration",
+      "enum": [
+        "idea",
+        "development",
+        "live",
+        "retired",
+        "transferred",
+        "left"
+      ],
+      "required": true,
+      "default": "idea"
+    },
+    "state_description": {
+      "type": "text"
+    },
+    "parent_project": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::project.project"
+    },
+    "role": {
+      "type": "text"
     }
   }
 }
