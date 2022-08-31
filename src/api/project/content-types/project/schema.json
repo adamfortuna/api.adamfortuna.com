@@ -120,6 +120,12 @@
     },
     "role": {
       "type": "text"
+    },
+    "link": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
     }
   }
 }
