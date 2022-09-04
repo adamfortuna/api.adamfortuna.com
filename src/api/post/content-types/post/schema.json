@@ -40,14 +40,15 @@
       "type": "text"
     },
     "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "authors": {
       "type": "relation",
@@ -60,6 +61,9 @@
       "relation": "manyToMany",
       "target": "api::technology.technology",
       "inversedBy": "posts"
+    },
+    "canonical_url": {
+      "type": "string"
     }
   }
 }

@@ -126,6 +126,17 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.link"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "app",
+        "course",
+        "library",
+        "template",
+        "job",
+        "experience"
+      ]
     }
   }
 }
