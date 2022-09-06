@@ -137,6 +137,11 @@
         "job",
         "experience"
       ]
+    },
+    "has_profile": {
+      "type": "boolean",
+      "default": false,
+      "required": false
     }
   }
 }
