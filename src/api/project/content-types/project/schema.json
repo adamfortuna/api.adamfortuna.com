@@ -121,7 +121,7 @@
     "role": {
       "type": "text"
     },
-    "link": {
+    "links": {
       "displayName": "link",
       "type": "component",
       "repeatable": true,
@@ -137,11 +137,6 @@
         "job",
         "experience"
       ]
-    },
-    "has_profile": {
-      "type": "boolean",
-      "default": false,
-      "required": false
     }
   }
 }

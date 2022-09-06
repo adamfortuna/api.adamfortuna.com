@@ -13,6 +13,18 @@
     },
     "title": {
       "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "github",
+        "archive",
+        "music",
+        "video"
+      ],
+      "default": "link",
+      "required": true
     }
   }
 }
