@@ -64,6 +64,16 @@
     },
     "canonical_url": {
       "type": "string"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "sm",
+        "md",
+        "lg"
+      ],
+      "default": "md",
+      "required": true
     }
   }
 }
