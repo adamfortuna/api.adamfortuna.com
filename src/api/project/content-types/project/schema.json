@@ -135,8 +135,12 @@
         "library",
         "template",
         "job",
-        "experience"
+        "experience",
+        "blog"
       ]
+    },
+    "salary": {
+      "type": "string"
     }
   }
 }
